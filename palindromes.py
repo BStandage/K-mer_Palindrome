@@ -24,7 +24,6 @@ def palindromes(k):
     reverse_conjugates = []
     neucleotides = 'ATCG'
     permutations = list(map(list, itertools.product(neucleotides, repeat=k)))
-    #x = list(itertools.product(n, repeat=8))
     str = ''
 
     for p in permutations:
